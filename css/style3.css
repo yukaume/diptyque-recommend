@@ -1,0 +1,122 @@
+#head {
+    /* position: fixed; */
+    background-color: #000000;
+    top: 0;
+    height: 110px;
+    width: 100%;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#dipimg {
+    width: auto;
+    height: 100%;
+}
+
+#main {
+    top: 115px;
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+#sec1 {
+    width: 550px;
+    height: 450px;
+    margin: 40px auto;
+}
+
+#shop1 {
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 3px;
+
+}
+
+#myMap1 {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+
+#sec2 {
+    width: 550px;
+    height: 450px;
+    margin: 40px auto;
+}
+
+#shop2 {
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 3px;
+
+}
+
+#myMap2 {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+
+#sec3 {
+    width: 550px;
+    height: 450px;
+    margin: 40px auto;
+}
+
+#shop3 {
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 3px;
+
+}
+
+#myMap3 {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+
+#sec4 {
+    width: 550px;
+    height: 450px;
+    margin: 40px auto;
+    /* bottom: 60px; */
+}
+
+#shop4 {
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 3px;
+
+}
+
+#myMap4 {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #2d2d33;
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 13px;
+
+}

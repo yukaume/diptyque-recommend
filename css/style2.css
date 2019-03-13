@@ -1,0 +1,221 @@
+body {
+    font-family: 'Times New Roman';
+    background-image: url(../img/muetto.jpeg)
+}
+
+#head {
+    /* position: fixed; */
+    background-color: black;
+    top: 0;
+    height: 110px;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+header {
+    height: 110px;
+    text-align: center;
+}
+
+header img {
+    width: auto;
+    height: 100%;
+}
+
+.first {
+    width: auto;
+    height: 20%;
+
+
+}
+
+.first img {
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Times New Roman';
+}
+
+
+main {
+    text-align: center;
+    margin: 80px auto;
+    padding: 80px 30px;
+    font-family: "Sawarabi Mincho";
+    width: 40%;
+    background-color: white;
+}
+
+#js-questionArea {
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+
+#check label {
+    margin: 0 20px;
+}
+
+#modal {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+#button {
+    margin: 65px auto;
+    text-align: center;
+    display: none;
+
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+
+}
+
+#result {
+    text-align: center;
+    margin: auto;
+    font-family: "Sawarabi Mincho";
+    font-size: 25px;
+    background-color: #F0EFEE;
+}
+
+#modalImage {
+    width: auto;
+    height: 80%;
+}
+
+
+#foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 13px;
+
+}
+
+#ch1,
+#ch2,
+#ch3 {
+    display: none;
+}
+
+
+span:hover {
+    color: #9C9690;
+
+}
+
+#recom {
+
+    margin: 20px auto;
+    padding: 20px 20px;
+    text-align: center;
+    display: none;
+    color: #000;
+    font-family: "Sawarabi Mincho";
+    background-color: white;
+    width: 30%;
+}
+
+
+
+
+.modalwin {
+    position: fixed;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 #000;
+    z-index: 1;
+}
+
+#modalOya {
+    text-align: center;
+    margin: 50px auto;
+    font-family: "Sawarabi Mincho";
+}
+
+.show-modal {
+    display: none;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.show-modal:hover {
+    font-weight: 600;
+    color: #87827b;
+    text-decoration: underline;
+}
+
+.modalwin dl {
+    padding: 0px 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.modalwin h1 {
+    background: #ededed;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.modalwin-contents {
+    padding: 5px;
+}
+
+.modalwin-contents img {
+    margin: 0 0 1em 0;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+.modalwin-contents p {
+    margin: 0 0 1em 0;
+    line-height: 1.8em;
+}
+
+#shade {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .modalwin {
+        width: 90%;
+    }
+}
